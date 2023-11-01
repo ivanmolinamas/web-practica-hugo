@@ -58,7 +58,7 @@ Las citas se pueden generar utilizando el caracter > al comienzo
 El resultado seria asi:
 > Esto es una cita de prueba.
 
-Si la cita tiene varios parrafos se dddddebe añadir el mismo simbolo > al comienzo de cada uno de ellos
+Si la cita tiene varios parrafos se debe añadir el mismo simbolo > al comienzo de cada uno de ellos
 
 ~~~Markdown
 > Esto es una cita de un primer parrafo   
@@ -260,4 +260,6 @@ con una imagen se veria asi:
 ![Logo de Markdown](/markdown/logo.png)
 
 
+---
 
+Y esto seria por encima una explicación de como podemos usar Markdown.
