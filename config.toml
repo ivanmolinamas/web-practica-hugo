@@ -1,4 +1,5 @@
 baseURL = 'https://example.org/'
-languageCode = 'en-us'
+languageCode = 'es'
 title = 'Mi web de practicas'
+theme = "relearn"
 
