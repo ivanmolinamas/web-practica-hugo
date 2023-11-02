@@ -7,4 +7,4 @@ draft = false
 ### Quien soy
 
 Soy Iván Molina, estudiante de DAW y trabadjo como operador de camara en Aragón televisión.  
-Me gusta el mundo de la informatica y por ello estoy estudiando esta FP
+Me gusta el mundo de la informatica y por ello estoy estudiando esta FP, esta es una web de prácticas para aprender HUGO.
