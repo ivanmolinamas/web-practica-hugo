@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on Mi web de practicas</title>
+    <link>https://example.org/markdown/index.html</link>
+    <description>Recent content in Markdown on Mi web de practicas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 01 Nov 2023 12:51:53 +0100</lastBuildDate>
+    <atom:link href="https://example.org/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Usar Markdwon</title>
+      <link>https://example.org/markdown/tema2/index.html</link>
+      <pubDate>Wed, 01 Nov 2023 13:43:59 +0100</pubDate>
+      <guid>https://example.org/markdown/tema2/index.html</guid>
+      <description>Elementos de bloque Igual que en HTML, markdown no soporta dobles liineas en blanco.
+Para realizar un salto de linea tendras que usar doble espacio al final antes que pulses intro
+Si quisieras separar texos, recuerda siempre el doble espacio.
+para asi despues continuar en otra linea.
+Expliación de como usar Markdown Titulos o Encabezados Para crear titulos se usa almohadilla #.
+Para un titulo H1 se usa una almohadilla # Titulo</description>
+    </item>
+    <item>
+      <title>¿Que es Markdown?</title>
+      <link>https://example.org/markdown/tema1/index.html</link>
+      <pubDate>Wed, 01 Nov 2023 12:52:25 +0100</pubDate>
+      <guid>https://example.org/markdown/tema1/index.html</guid>
+      <description>Explicación del Markdwon Markdown es una herramienta de conversion de texto plano a HTML
+Tambien se considera un lenguaje que te permite crear contenido de una manera sencilla de escribir y que mantenga un diseño legible.
+Este lenguaje tambien te permite crear titulos, negritas, cuadriculas de manera sencilla y rapida.
+Ahora veremos como usar Markdown.</description>
+    </item>
+  </channel>
+</rss>
