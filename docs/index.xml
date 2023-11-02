@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mi web de practicas</title>
-    <link>https://example.org/index.html</link>
+    <link>https://github.com/ivanmolinamas/web-practica-hugo/index.html</link>
     <description>Recent content on Mi web de practicas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Wed, 01 Nov 2023 13:43:59 +0100</lastBuildDate>
-    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://github.com/ivanmolinamas/web-practica-hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sobre mi</title>
-      <link>https://example.org/about/index.html</link>
+      <link>https://github.com/ivanmolinamas/web-practica-hugo/about/index.html</link>
       <pubDate>Wed, 01 Nov 2023 13:48:46 +0100</pubDate>
-      <guid>https://example.org/about/index.html</guid>
+      <guid>https://github.com/ivanmolinamas/web-practica-hugo/about/index.html</guid>
       <description>Quien soy Soy Iván Molina, estudiante de DAW y trabadjo como operador de camara en Aragón televisión.
 Me gusta el mundo de la informatica y por ello estoy estudiando esta FP, esta es una web de prácticas para aprender HUGO.</description>
     </item>
     <item>
       <title>Markdown</title>
-      <link>https://example.org/markdown/index.html</link>
+      <link>https://github.com/ivanmolinamas/web-practica-hugo/markdown/index.html</link>
       <pubDate>Wed, 01 Nov 2023 12:51:53 +0100</pubDate>
-      <guid>https://example.org/markdown/index.html</guid>
+      <guid>https://github.com/ivanmolinamas/web-practica-hugo/markdown/index.html</guid>
       <description>¿Que es el markdown y para que lo podemos usar? En estos capitulos veremos una brebe explicación del Markdown y como podemos usarlo.
 Ya que es un lenguaje sencillo y muy practico para el Desarrollo Web.
 Para ver una explicación pincha aqui.
