@@ -1,4 +1,4 @@
-baseURL = 'https://github.com/ivanmolinamas/web-practica-hugo'
+baseURL = 'https://ivanmolinamas.github.io/web-practica-hugo/'
 languageCode = 'es'
 title = 'Mi web de practicas'
 theme = "relearn"
