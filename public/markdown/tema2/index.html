@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.120.2">
+    <meta name="generator" content="Relearn 5.23.1+tip">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Usar Markdwon :: Mi web de practicas">
+    <meta name="twitter:description" content="Elementos de bloque Igual que en HTML, markdown no soporta dobles liineas en blanco.
+Para realizar un salto de linea tendras que usar doble espacio al final antes que pulses intro
+Si quisieras separar texos, recuerda siempre el doble espacio.
+para asi despues continuar en otra linea.
+Expliación de como usar Markdown Titulos o Encabezados Para crear titulos se usa almohadilla #.
+Para un titulo H1 se usa una almohadilla # Titulo">
+    <meta property="og:title" content="Usar Markdwon :: Mi web de practicas">
+    <meta property="og:description" content="Elementos de bloque Igual que en HTML, markdown no soporta dobles liineas en blanco.
+Para realizar un salto de linea tendras que usar doble espacio al final antes que pulses intro
+Si quisieras separar texos, recuerda siempre el doble espacio.
+para asi despues continuar en otra linea.
+Expliación de como usar Markdown Titulos o Encabezados Para crear titulos se usa almohadilla #.
+Para un titulo H1 se usa una almohadilla # Titulo">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://example.org/markdown/tema2/index.html">
+    <meta property="article:section" content="Markdown :: Mi web de practicas">
+    <meta property="article:published_time" content="2023-11-01T13:43:59+01:00">
+    <meta property="article:modified_time" content="2023-11-01T13:43:59+01:00">
+    <meta property="og:site_name" content="Mi web de practicas">
+    <title>Usar Markdwon :: Mi web de practicas</title>
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="/css/fontawesome-all.min.css?1698921367" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1698921367" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1698921367" rel="stylesheet">
+    <link href="/css/auto-complete.css?1698921367" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1698921367" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1698921367" rel="stylesheet">
+    <link href="/css/fonts.css?1698921367" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1698921367" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1698921367" rel="stylesheet">
+    <link href="/css/theme-blue.css?1698921367" rel="stylesheet" id="R-variant-style">
+    <link href="/css/variant.css?1698921367" rel="stylesheet">
+    <link href="/css/print.css?1698921367" rel="stylesheet" media="print">
+    <link href="/css/ie.css?1698921367" rel="stylesheet">
+    <script src="/js/url.js?1698921367"></script>
+    <script src="/js/variant.js?1698921367"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var root_url="/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copiar en el portapapeles';
+      window.T_Copied_to_clipboard = '¡Copiado al portapapeles!';
+      window.T_Copy_link_to_clipboard = 'Copiar enlace al portapapeles';
+      window.T_Link_copied_to_clipboard = '¡Enlace copiado al portapapeles!';
+      window.T_Reset_view = 'Restablecer vista';
+      window.T_View_reset = '¡Ver reajuste!';
+      window.T_No_results_found = 'No se han encontrado resultados para \u0022{0}\u0022';
+      window.T_N_results_found = '{1} resultados encontrados para \u0022{0}\u0022';
+      // some further base stuff
+      var baseUriFull='https:\/\/example.org/';
+      window.variants && variants.init( [ 'blue' ] );
+    </script>
+  </head>
+  <body class="mobile-support html" data-url="/markdown/tema2/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide">
+              <button class="topbar-control" onclick="toggleNav()" type="button" title="Menú (CTRL&#43;ALT&#43;n)">
+                <i class="fa-fw fas fa-bars"></i>
+              </button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+              <button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Tabla de contenido (CTRL&#43;ALT&#43;t)">
+                <i class="fa-fw fas fa-list-alt"></i>
+              </button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"><nav class="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#elementos-de-bloque">Elementos de bloque</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li><a href="#titulo-h2">Titulo H2</a>
+      <ul>
+        <li><a href="#titulo-h3">Titulo H3</a></li>
+      </ul>
+    </li>
+    <li><a href="#citas">Citas</a>
+      <ul>
+        <li></li>
+        <li><a href="#elementos-de-linea">Elementos de linea</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">Mi web de practicas</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/markdown/index.html"><span itemprop="name">Markdown</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Usar Markdwon</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+              <a class="topbar-control" href="/markdown/index.html" title="Markdown (🡐)">
+                <i class="fa-fw fas fa-chevron-left"></i>
+              </a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+              <a class="topbar-control" href="/markdown/tema1/index.html" title="¿Que es Markdown? (🡒)">
+                <i class="fa-fw fas fa-chevron-right"></i>
+              </a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+              <button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Más">
+                <i class="fa-fw fas fa-ellipsis-v"></i>
+              </button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="usar-markdwon">Usar Markdwon</h1>
+
+<h3 id="elementos-de-bloque">Elementos de bloque</h3>
+<p>Igual que en HTML, markdown no soporta dobles liineas en blanco.<br>
+Para realizar un salto de linea tendras que usar doble espacio al final antes que pulses intro</p>
+<p>Si quisieras separar texos, recuerda siempre el doble espacio.<br>
+para asi despues continuar en otra linea.</p>
+<h4 id="expliación-de-como-usar-markdown">Expliación de como usar Markdown</h4>
+<h4 id="titulos-o-encabezados">Titulos o Encabezados</h4>
+<p>Para crear titulos se usa almohadilla #.<br>
+Para un titulo H1 se usa una almohadilla # Titulo<br>
+Para uno H2 se usa dos ## Titulo<br>
+Y asi hasta un H6, serian el numero de almohadillas del &laquo;H&raquo; que queremos</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span># Titulo H1     
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## Titulo H2  
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">### Titulo H3     
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">#### Titulo H4  
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">##### Titulo H5   
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>###### Titulo H6   </span></span></code></pre></div><p>El resulado seria:</p>
+<h1 id="titulo-h1">Titulo H1</h1>
+<h2 id="titulo-h2">Titulo H2</h2>
+<h3 id="titulo-h3">Titulo H3</h3>
+<h4 id="titulo-h4">Titulo H4</h4>
+<h5 id="titulo-h5">Titulo H5</h5>
+<h6 id="titulo-h6">Titulo H6</h6>
+<hr>
+<h2 id="citas">Citas</h2>
+<p>Las citas se pueden generar utilizando el caracter &gt; al comienzo</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>&gt; Esto es una cita de prueba.</span></span></code></pre></div><p>El resultado seria asi:</p>
+<blockquote>
+<p>Esto es una cita de prueba.</p>
+</blockquote>
+<p>Si la cita tiene varios parrafos se debe añadir el mismo simbolo &gt; al comienzo de cada uno de ellos</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Markdown" data-lang="Markdown"><span style="display:flex;"><span><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">Esto es una cita de un primer parrafo   
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span>&gt; Esto es un segundo parrafo de texto</span></span></code></pre></div><p>El resultado es este:</p>
+<blockquote>
+<p>Esto es una cita de un primer parrafo<br>
+Esto es un segundo parrafo de texto</p>
+</blockquote>
+<p>Tambien se puede anidar una cita en otra usando doble &raquo;</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">Esto es una cita    
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span>&gt;&gt; Con otra cita anidada como ejemplo.  
+</span></span><span style="display:flex;"><span>y puede seguir  </span></span></code></pre></div><p>El resultado es asi:</p>
+<blockquote>
+<p>Esto es una cita</p>
+<blockquote>
+<p>Con otra cita anidada como ejemplo.<br>
+y puede seguir</p>
+</blockquote>
+</blockquote>
+<hr>
+<h4 id="listas">Listas</h4>
+<p>Se pueden crear listas, de manera muy sencilla, tanto ordenadas como desordenadas.</p>
+<h5 id="listas-desordenadas">Listas desordenadas</h5>
+<p>Para listas desordenadas usa * asteriscos, - guiones, o + simbolo de suma.</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Markdown" data-lang="Markdown"><span style="display:flex;"><span><span style="color:#66d9ef">*</span> Manzanas
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">*</span> Melocotones
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Peras
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Almendras
+</span></span><span style="display:flex;"><span>+ Uvas
+</span></span><span style="display:flex;"><span>+ Cerezas</span></span></code></pre></div><p>El resultado es asi:</p>
+<ul>
+<li>Manzanas</li>
+<li>Melocotones</li>
+</ul>
+<ul>
+<li>Peras</li>
+<li>Almendras</li>
+</ul>
+<ul>
+<li>Uvas</li>
+<li>Cerezas</li>
+</ul>
+<h6 id="lista-anidadas">Lista anidadas</h6>
+<p>Para una lista anidada simplemente hay que añadir 4 espacios en blanco</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Markdown" data-lang="Markdown"><span style="display:flex;"><span><span style="color:#66d9ef">*</span> Elemento 1
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">*</span> Elemento 2
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">*</span> Elemento anidado 1
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">*</span> Elemento anidado 2
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">*</span> Elemento 3
+</span></span><span style="display:flex;"><span>* Elemento 4</span></span></code></pre></div><p>El resultado es asi:</p>
+<ul>
+<li>Elemento 1</li>
+<li>Elemento 2
+<ul>
+<li>Elemento anidado 1</li>
+<li>Elemento anidado 2</li>
+</ul>
+</li>
+<li>Elemento 3</li>
+<li>Elemento 4</li>
+</ul>
+<h5 id="listas-ordenadas">Listas ordenadas</h5>
+<p>Para la listas ordenadas debes usar la  sintaxis tipo: &laquo;numero&raquo; y un punto. y el elemento. Tambien puedes combinar con listas desordenadas y anidarlas</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">1.</span> Elemento 1
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">1.</span> Subelemento 1
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">2.</span> Subelemento 2
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">2.</span> Elemento 2
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">*</span> Subelemento 3
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">*</span> Subelemento 4
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">3.</span> Elemento 3
+</span></span><span style="display:flex;"><span>4. Elemento 4</span></span></code></pre></div><p>El resultado es asi:</p>
+<ol>
+<li>Elemento 1
+<ol>
+<li>Subelemento 1</li>
+<li>Subelemento 2</li>
+</ol>
+</li>
+<li>Elemento 2
+<ul>
+<li>Subelemento 3
+<ul>
+<li>Subelemento 4</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Elemento 3</li>
+<li>Elemento 4</li>
+</ol>
+<hr>
+<h4 id="códigos-de-bloque">Códigos de bloque</h4>
+<p>Si quieres insertar un bloque que contenga código, deberas &ldquo;encerrar&rdquo; ese codigo entre 3 simbolos ~ &laquo; virgulillas&raquo;<br>
+Si quieres especificar el codigo ,en la pimera linea de virgulillas puedes especificarlo</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>    ~~~ html
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">h1</span>&gt; titulo principal &lt;/<span style="color:#f92672">h1</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">p</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;texto1&#34;</span>&gt; parrafo &lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>    ~~~</span></span></code></pre></div><div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>    <span style="color:#f92672">~~~</span> java
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span>0, x <span style="color:#f92672">&lt;</span> i, i<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>    System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(x)}
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">~~~</span></span></span></code></pre></div><p>El resultado queda asi:</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">h1</span>&gt; titulo principal &lt;/<span style="color:#f92672">h1</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">p</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;texto1&#34;</span>&gt; parrafo &lt;/<span style="color:#f92672">p</span>&gt;</span></span></code></pre></div><div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span>0, x <span style="color:#f92672">&lt;</span> i, i<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(x)}</span></span></code></pre></div><hr>
+<h4 id="reglas-horizontales">Reglas horizontales</h4>
+<p>Para crear una regla o division horizonal en Markdown es simplemente poner tres guiones &laquo;- - -&raquo;</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>---</span></span></code></pre></div><p>El resultado:</p>
+<hr>
+<p>Y asi ya puedes incluir reglas horizontales</p>
+<hr>
+<h3 id="elementos-de-linea">Elementos de linea</h3>
+<h5 id="enfasis-negritas-y-cursivas">Enfasis, negritas y cursivas</h5>
+<p>Para poder escribir palabras o frases en negrita o cursiva se utiliza el simbolo &laquo;*&raquo; asterisco o &laquo;_&raquo; guion bajo, dependiendo de cuantos sera negrita, cursiva o ambas.</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>*cursiva*
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">**negrita**</span>
+</span></span><span style="display:flex;"><span><span style="font-style:italic">_cursiva_</span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">__negrita__</span>
+</span></span><span style="display:flex;"><span><span style="font-style:italic">**</span>*negrita y cursiva***
+</span></span><span style="display:flex;"><span>___negrita y cursiva___</span></span></code></pre></div><p>El resultado es este:
+<em>cursiva</em><br>
+<strong>negrita</strong><br>
+<em>cursiva</em><br>
+<strong>negrita</strong><br>
+<em><strong>negrita y cursiva</strong></em><br>
+<em><strong>negrita y cursiva</strong></em></p>
+<h5 id="enlaces-o-links">Enlaces o Links</h5>
+<p>Para añadir enlaces a una publicacion o una web la forma de hacerla es la siguiente.<br>
+se escribe la palabra enlazada entre corchetes &laquo;[]&raquo; y el link entre parentesis &laquo;()&raquo;</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>[<span style="color:#f92672">google</span>](<span style="color:#a6e22e">https://www.google.es</span>)</span></span></code></pre></div><p>El resultado es el siguiente:<br>
+<a href="https://www.google.es" target="_blank">google</a></p>
+<h5 id="código">Código</h5>
+<p>Para poder añadir secciones donde mostrar otro codigo de lenguaje, podras usar las comillas sencillas en HTML seria <code>&lt;code&gt;</code><br>
+en Markdown usaras &laquo;`&raquo;</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#e6db74">`&lt;h3&gt;`</span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">`&lt;javascript&gt;`</span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">`system.out.println(&#34;Hola mundo&#34;)`</span></span></span></code></pre></div><p>El resultado seria:<br>
+<code>&lt;h3&gt; &lt;/h3&gt;</code><br>
+<code>&lt;style&gt; &lt;/style&gt;</code><br>
+<code>system.out.println(&quot;Hola mundo&quot;)</code></p>
+<p>Puedes usar este metodo para introducir <code>&lt;p&gt; pates de codigo &lt;/p&gt;</code> entre las lineas que escribes.</p>
+<h5 id="imágenes">Imágenes</h5>
+<p>Para introducir imagenes en Markdown es tan sencillo como incluir el simbolo de excalamacion al principo &laquo;!&raquo; y el enlace a la ubicación de la imagen entre parentesis &laquo;( )&raquo;, tambien es conveniente añadir entre corchetes &laquo;[ ]&raquo; un texto alternativo.<br>
+Tambien podriamos poner una ruta a una web, añadiendo el correspondiente https://&hellip;</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">Logo de Markdown</span>](<span style="color:#a6e22e">/markdown/logo.png</span>)</span></span></code></pre></div><p>con una imagen se veria asi:
+<a href="#R-image-aedf88cc7227febc941ecbef4074ed94" class="lightbox-link"><img src="/markdown/logo.png" alt="Logo de Markdown" class="figure-image noborder lightbox noshadow" style="height: auto; width: auto;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-aedf88cc7227febc941ecbef4074ed94"><img src="/markdown/logo.png" alt="Logo de Markdown" class="lightbox-image noborder lightbox noshadow" loading="lazy"></a></p>
+<hr>
+<p>Y esto seria por encima una explicación de como podemos usar Markdown.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+<a>
+  <img src="/images/web-logo.jpg" alt="Logo web">
+Mi Web - Iván
+</a>
+
+
+
+        </div>
+        <div class="searchbox default-animation">
+          <i class="fas fa-search" title="Buscar (CTRL+ALT+f)"></i>
+          <label class="a11y-only" for="R-search-by">Buscar</label>
+          <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Buscar...">
+          <button class="search-clear" type="button" data-search-clear="" title="Borrar búsqueda"><i class="fas fa-times" title="Borrar búsqueda"></i></button>
+        </div>
+        <script>
+          var contentLangs=['es'];
+        </script>
+        <script src="/js/auto-complete.js?1698921367" defer></script>
+        <script src="/js/lunr/lunr.min.js?1698921367" defer></script>
+        <script src="/js/lunr/lunr.stemmer.support.min.js?1698921367" defer></script>
+        <script src="/js/lunr/lunr.multi.min.js?1698921367" defer></script>
+        <script src="/js/lunr/lunr.es.min.js?1698921367" defer></script>
+        <script src="/js/search.js?1698921367" defer></script>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <ul>
+          <li><a class="padding" href="/index.html"><i class='fas fa-home'></i> Inicio</a></li>
+        </ul>
+        <hr class="padding">
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div id="R-topics">
+          <ul class="enlarge morespace collapsible-menu">
+          <li data-nav-id="/about/index.html" class=""><a class="padding" href="/about/index.html">Sobre mi</a></li>
+          <li data-nav-id="/markdown/index.html" class="parent "><a class="padding" href="/markdown/index.html">Markdown</a><ul id="R-subsections-585a39e92be72923254254ae75dcacef" class="morespace collapsible-menu">
+          <li data-nav-id="/markdown/tema2/index.html" class="active"><a class="padding" href="/markdown/tema2/index.html">Usar Markdwon</a></li>
+          <li data-nav-id="/markdown/tema1/index.html" class=""><a class="padding" href="/markdown/tema1/index.html">¿Que es Markdown?</a></li></ul></li>
+          </ul>
+        </div>
+        <div id="R-shortcuts">
+          <div class="nav-title padding">Más</div>
+          <ul class="space">
+            <li><a class="padding" href="https://developer.mozilla.org/es/docs/Web/JavaScript"><i class='fab fa-js-square'></i>  Lenguaje JavaScript</a></li>
+            <li><a class="padding" href="https://es.wikipedia.com"> <i class='fab fa-wikipedia-w'></i>  Wikipedia</a></li>
+            <li><a class="padding" href="https://markdown.es/"><i class='fab fa-markdown'></i>   Más info Markdown</a></li>
+            <li><a class="padding" href="https://gohugo.io/"><i class='fab fa-internet-explorer'></i>   Web oficial de Hugo</a></li>
+          </ul>
+        </div>
+        <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
+        <div id="R-menu-footer">
+          <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter">
+          <div id="R-prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks">
+            <ul>
+              <li id="R-select-language-container" class="footerLangSwitch">
+                <div class="padding menu-control">
+                  <i class="fas fa-language fa-fw"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-language">Idioma</label>
+                    <select id="R-select-language" onchange="location = baseUri + this.value;">
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+              <li id="R-select-variant-container" class="footerVariantSwitch">
+                <div class="padding menu-control">
+                  <i class="fas fa-paint-brush fa-fw"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-variant">Tema</label>
+                    <select id="R-select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                      <option id="R-blue" value="blue" selected>Blue</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <script>window.variants && variants.markSelectedVariant();</script>
+              </li>
+              <li class="footerVisitedLinks">
+                <div class="padding menu-control">
+                  <i class="fas fa-history fa-fw"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <button onclick="clearHistory();">Borrar Historial</button>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div id="R-footer" class="footerFooter showFooter">
+<p>Iván Molina Mas - <i class="fas fa-laptop-house"></i> Curso DWES - 2023</p>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <script src="/js/clipboard.min.js?1698921367" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1698921367" defer></script>
+    <script src="/js/theme.js?1698921367" defer></script>
+  </body>
+</html>
