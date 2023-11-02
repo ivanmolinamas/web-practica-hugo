@@ -3,3 +3,35 @@ languageCode = 'es'
 title = 'Mi web de practicas'
 theme = "relearn"
 
+defaultContentLanguage="es"
+[Languages]
+[Languages.es]
+
+landingPageName = "<i class='fas fa-home'></i> Inicio"
+
+[params]
+  themeVariant = "blue"
+
+[[menu.shortcuts]]
+name="<i class='fab fa-js-square'></i>  Lenguaje JavaScript"
+identified=""
+url="https://developer.mozilla.org/es/docs/Web/JavaScript"
+weight=1
+
+[[menu.shortcuts]]
+name=" <i class='fab fa-wikipedia-w'></i>  Wikipedia"
+identified=""
+url="https://es.wikipedia.com"
+weight=2
+
+[[menu.shortcuts]]
+name="<i class='fab fa-markdown'></i>   Más info Markdown"
+identified=""
+url="https://markdown.es/"
+weight=3
+
+[[menu.shortcuts]]
+name="<i class='fab fa-internet-explorer'></i>   Web oficial de Hugo"
+identified=""
+url="https://gohugo.io/"
+weight=4
