@@ -1,5 +1,11 @@
 baseURL = 'https://ivanmolinamas.github.io/web-practica-hugo/'
-languageCode = 'es'
+
+[languages]
+[languages.es]
+title = "Web de Iván"
+weight = 1
+languageName = "Español"
+
 title = 'Mi web de practicas'
 theme = "relearn"
 
@@ -11,6 +17,19 @@ landingPageName = "<i class='fas fa-home'></i> Inicio"
 
 [params]
   themeVariant = "blue"
+    description = "Web de practicas de Iván Molina sobre Markdown"
+  # Shows a checkmark for visited pages on the menu
+[menu]
+  [[menu.main]]
+    identifier = "tema1"
+    name = "Tema 1"
+    url = "/tema1/"
+    
+    [[menu.main]]
+    identifier = "Sobre mi"
+    name = "Sobre mi"
+    url = "/about"
+
 
 [[menu.shortcuts]]
 name="<i class='fab fa-js-square'></i>  Lenguaje JavaScript"
