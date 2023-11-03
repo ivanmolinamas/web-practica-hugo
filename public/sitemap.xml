@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/about/index.html</loc>
+    <loc>https://ivanmolinamas.github.io/web-practica-hugo/about/index.html</loc>
     <lastmod>2023-11-01T13:48:46+01:00</lastmod>
   </url>
   <url>
-    <loc>https://example.org/index.html</loc>
+    <loc>https://ivanmolinamas.github.io/web-practica-hugo/index.html</loc>
     <lastmod>2023-11-01T13:43:59+01:00</lastmod>
   </url>
   <url>
-    <loc>https://example.org/markdown/tema2/index.html</loc>
+    <loc>https://ivanmolinamas.github.io/web-practica-hugo/markdown/tema2/index.html</loc>
     <lastmod>2023-11-01T13:43:59+01:00</lastmod>
   </url>
   <url>
-    <loc>https://example.org/markdown/tema1/index.html</loc>
+    <loc>https://ivanmolinamas.github.io/web-practica-hugo/markdown/tema1/index.html</loc>
     <lastmod>2023-11-01T12:52:25+01:00</lastmod>
   </url>
   <url>
-    <loc>https://example.org/markdown/index.html</loc>
+    <loc>https://ivanmolinamas.github.io/web-practica-hugo/markdown/index.html</loc>
     <lastmod>2023-11-01T12:51:53+01:00</lastmod>
   </url>
   <url>
-    <loc>https://example.org/categories/index.html</loc>
+    <loc>https://ivanmolinamas.github.io/web-practica-hugo/categories/index.html</loc>
   </url>
   <url>
-    <loc>https://example.org/tags/index.html</loc>
+    <loc>https://ivanmolinamas.github.io/web-practica-hugo/tags/index.html</loc>
   </url>
 </urlset>
