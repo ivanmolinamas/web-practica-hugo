@@ -9,5 +9,5 @@ draft = false
 En esta web encontraras información sobre que es Markdown y una guia basica de como usar Markdown.
 
 Escoge una opción para ir directamente a la pagina  
-{{% button href="web-practica-hugo/markdown/tema1/" %}}Que es Markdown{{% /button %}}
-{{% button href="web-practica-hugo/markdown/tema2/" %}}Aprende Markdown{{% /button %}}
+{{% button href="/markdown/tema1/" %}}Que es Markdown{{% /button %}}
+{{% button href="/markdown/tema2/" %}}Aprende Markdown{{% /button %}}
