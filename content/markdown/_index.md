@@ -3,7 +3,7 @@ archetype = "chapter"
 title = "Markdown"
 weight = 1
 +++
-![Logo de Markdown](/images/logo.png)
+![Logo de Markdown](logo.png)
 ### ¿Que es el markdown y para que lo podemos usar?
 
 En estos capitulos veremos una brebe explicación del Markdown y como podemos usarlo.  
