@@ -3,16 +3,16 @@ title = 'Usar Markdwon'
 date = 2023-11-01T13:43:59+01:00
 draft = false
 +++
+## Expliación de como usar Markdown
 ### Elementos de bloque
+
+#### Parrafos y saltos de linea
 Igual que en HTML, markdown no soporta dobles liineas en blanco.  
 Para realizar un salto de linea tendras que usar doble espacio al final antes que pulses intro  
 
 
 Si quisieras separar texos, recuerda siempre el doble espacio.  
 para asi despues continuar en otra linea.
-
-#### Expliación de como usar Markdown
-
 
 
 #### Titulos o Encabezados
