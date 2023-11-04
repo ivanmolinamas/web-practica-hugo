@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mi web de practicas</title>
+    <title>Bienvenidos a mi web sobre Markdown on Mi web de practicas</title>
     <link>https://ivanmolinamas.github.io/web-practica-hugo/index.html</link>
-    <description>Recent content on Mi web de practicas</description>
+    <description>Recent content in Bienvenidos a mi web sobre Markdown on Mi web de practicas</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es</language>
-    <lastBuildDate>Wed, 01 Nov 2023 13:43:59 +0100</lastBuildDate>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 03 Nov 2023 11:52:18 +0100</lastBuildDate>
     <atom:link href="https://ivanmolinamas.github.io/web-practica-hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown</title>
+      <link>https://ivanmolinamas.github.io/web-practica-hugo/markdown/index.html</link>
+      <pubDate>Wed, 01 Nov 2023 13:43:59 +0100</pubDate>
+      <guid>https://ivanmolinamas.github.io/web-practica-hugo/markdown/index.html</guid>
+      <description>¿Que es el markdown y para que lo podemos usar? En estos capitulos veremos una brebe explicación del Markdown y como podemos usarlo.
+Ya que es un lenguaje sencillo y muy practico para el Desarrollo Web.
+Para ver una explicación pincha aqui.
+Para ver como usarlo pincha aqui.</description>
+    </item>
     <item>
       <title>Sobre mi</title>
       <link>https://ivanmolinamas.github.io/web-practica-hugo/about/index.html</link>
@@ -15,16 +25,6 @@
       <guid>https://ivanmolinamas.github.io/web-practica-hugo/about/index.html</guid>
       <description>Quien soy Soy Iván Molina, estudiante de DAW y trabadjo como operador de camara en Aragón televisión.
 Me gusta el mundo de la informatica y por ello estoy estudiando esta FP, esta es una web de prácticas para aprender HUGO.</description>
-    </item>
-    <item>
-      <title>Markdown</title>
-      <link>https://ivanmolinamas.github.io/web-practica-hugo/markdown/index.html</link>
-      <pubDate>Wed, 01 Nov 2023 12:51:53 +0100</pubDate>
-      <guid>https://ivanmolinamas.github.io/web-practica-hugo/markdown/index.html</guid>
-      <description>¿Que es el markdown y para que lo podemos usar? En estos capitulos veremos una brebe explicación del Markdown y como podemos usarlo.
-Ya que es un lenguaje sencillo y muy practico para el Desarrollo Web.
-Para ver una explicación pincha aqui.
-Para ver como usarlo pincha aqui.</description>
     </item>
   </channel>
 </rss>
