@@ -3,7 +3,7 @@ title = '¿Que es Markdown?'
 date = 2023-11-01T12:52:25+01:00
 draft = false
 +++
-![Logo de Markdown](/images/logo.png)
+![Logo de Markdown](../logo.png)
 
 ## Explicación del Markdwon
 
